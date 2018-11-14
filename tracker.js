@@ -5,8 +5,26 @@ function Tracker(){
   let percent = [];
 
   //implement all six functions below
-
-
+function numOfSeeds(){
 
 
 }
+function addSeed(){
+
+
+}
+function removeSeed(){
+
+
+}
+function reportHealth(){
+
+
+}
+function update(){
+
+  
+}
+
+}
+
