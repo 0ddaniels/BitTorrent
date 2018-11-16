@@ -27,12 +27,23 @@ function removeSeed(seeds, name){
   }
 
 }
-function reportHealth(){
-
-
+function reportHealth(seeds){
+  let sum = 0;
+  for(i=0; i<seeds.length; i++){
+    sum = sum + seeds[i];
+  }
+return sum/seeds.length;
 }
-function update(){
+function update(percent){
+  for(i=0; i<percent.length; i++){
+    let r = Math.random;
+    if (r>percent[i]){
+      percent[i] = r;
+    }
+    
 
+
+  }
   
 }
 
