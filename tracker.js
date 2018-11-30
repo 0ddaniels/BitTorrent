@@ -7,7 +7,7 @@ function Tracker(){
   //implement all six functions below
 function numOfSeeds(seeds){
   let result = 0;
-  for(i=0; i<=seeds.length; o;){
+  for(i=0; i<=seeds.length; i++;){
     if(seeds[i] !== null){
       result++;
     }
@@ -38,13 +38,16 @@ function reportHealth(){
   }
   return sum/count;
 }
-function update(percent){
+function update(){
   for(i=0; i<percent.length; i++){
     let r = Math.random;
-    if (r>percent[i]){
+    if (r> 0.30){
+      seeds[i] = null;
       percent[i] = r;
     }
-    
+    else if(r > percent[i]){
+      recent[i] = r;
+    }
 
 
   }
